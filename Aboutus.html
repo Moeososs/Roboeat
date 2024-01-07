@@ -6,8 +6,8 @@
 
     <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/aboutus.css" />
     <!-- Latest compiled and minified CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -29,7 +29,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script defer src="./scripts/contactUs.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -49,15 +48,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html"
-                >Home</a
-              >
+              <a class="nav-link " aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./About Us.html">About Us</a>
+              <a class="nav-link active" href="./About Us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./contactUs.html">Contact Us</a>
+              <a class="nav-link" href="./contactUs.html">Contact Us</a>
             </li>
           </ul>
           <div class="d-flex" role="search">
@@ -67,33 +64,29 @@
         </div>
       </div>
     </nav>
-    <main>
-      <div class="container">
-        <form class="form">
-          <h1>Contact Us</h1>
-          <div class="success-msg msg d-none">
-            <p>The form has been submitted successfully</p>
-          </div>
-          <div class="err-msg msg d-none">
-            <p>
-              You have to fill all required fields to submit
-              <span><i class="fa-solid fa-triangle-exclamation"></i></span>
-            </p>
-          </div>
-          <p>Name</p>
-          <input type="text" class="form-control" />
-          <p>Email</p>
-          <input type="email" class="form-control" />
-          <p>Phone</p>
-          <input type class="form-control" />
-          <p>Message</p>
-          <textarea class="form-control"></textarea>
-          <button type="submit" class="btn">submit</button>
-        </form>
-      </div>
-    </main>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <section class="about-section">
+        <h2>Our Story</h2>
+        <p>Welcome to RoboEat, where delicious meets comfort! Since 2005, we have been serving a variety of mouth-watering fast food options that keep our customers coming back for more.</p>
+      </section>
+      
+      <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <p>Behind every great meal is a dedicated team. Our chefs and staff are passionate about delivering the best dining experience to our customers. Get to know the faces that make it all happen!</p>
+      </section>
+      
+      <section class="mission-section">
+        <h2>Our Mission</h2>
+        <p>At RoboEat, our mission is to provide a diverse menu of high-quality, fresh, and tasty fast food options. We strive to create a welcoming atmosphere where every customer feels like family.</p>
+      </section>
+    </div>
+  </main>
     <footer>
-      <p class="text-center">© 2021 Robogarden Inc.</p>
-    </footer>
-  </body>
+        <p class="text-center">© 2021 Robogarden Inc.</p>   
+       </footer>
+</body>
 </html>

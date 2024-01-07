@@ -1,0 +1,41 @@
+header {
+  background-color: #7450d6;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+.about-section,
+.team-section,
+.mission-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #7450d6d6;
+  color: white;
+}
+main {
+  background-image: url(https://image.lexica.art/full_jpg/abb82a86-473e-4eee-bbb5-a15095a2eebf);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  overflow: hidden;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 35px 0;
+  position: relative;
+}
+main .container::after {
+  content: "";
+  position: absolute;
+  width: 140%;
+  height: 100%;
+  top: 0;
+  right: -20%;
+  background-color: rgba(255, 255, 255, 0.207);
+  z-index: -1;
+}
